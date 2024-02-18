@@ -1,6 +1,5 @@
 name: list_app
-description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
 version: 1.0.0+1
 
 environment:
@@ -9,6 +8,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  melos: ^4.1.0
 
 dev_dependencies:
   flutter_test:
