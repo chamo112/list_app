@@ -1,6 +1,5 @@
 # list_app
-
-A new Flutter project.
+Flutter 用のテストアプリケーションです。
 
 ## Getting Started
 
