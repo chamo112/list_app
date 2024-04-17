@@ -69,77 +69,14 @@ analysis_benchmark.json
 .pub-cache/
 .pub/
 /build/**
-/apps/build/**
+/apps/list_sample_app/build/**
 flutter_*.png
 linked_*.ds
 unlinked.ds
 unlinked_spec.ds
 
-# Android related
-**/android/**/gradle-wrapper.jar
-**/android/.gradle
-**/android/captures/
-**/android/gradlew
-**/android/gradlew.bat
-**/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
-**/android/key.properties
-**/android/.settings
-**/android/.project
-**/android/service-account.json
-**/android/app/google-services.json
-**/android/app/src/main/res/mipmap*/
-*.jks
-*.keystore
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# iOS/XCode related
-**/ios/**/*.mode1v3
-**/ios/**/*.mode2v3
-**/ios/**/*.moved-aside
-**/ios/**/*.pbxuser
-**/ios/**/*.perspectivev3
-**/ios/**/*sync/
-**/ios/**/.sconsign.dblite
-**/ios/**/.tags*
-**/ios/**/.vagrant/
-**/ios/**/DerivedData/
-**/ios/**/Icon?
-**/ios/**/Pods/
-**/ios/**/.symlinks/
-**/ios/**/profile
-**/ios/**/xcuserdata
-**/ios/.generated/
-**/ios/GoogleService-Info.plist
-**/ios/Runner/GoogleService-Info.plist
-**/ios/Flutter/.last_build_id
-**/ios/Flutter/App.framework
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/Flutter.podspec
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/DartDefines.xcconfig
-**/ios/Flutter/ephemeral
-**/ios/Flutter/app.flx
-**/ios/Flutter/app.zip
-**/ios/Flutter/flutter_assets/
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
-!**/ios/**/default.mode1v3
-!**/ios/**/default.mode2v3
-!**/ios/**/default.pbxuser
-!**/ios/**/default.perspectivev3
-
-# macOS
-**/macos/Flutter/GeneratedPluginRegistrant.swift
-**/macos/Flutter/DartDefines.xcconfig
-
 # Web related
-lib/generated_plugin_registrant.dart
+apps/lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
@@ -179,20 +116,8 @@ pubspec_overrides.yaml
 # Firebase
 .firebase
 
-# Flavor
-**/android/app/src/main/res/mipmap*/
-**/android/app/google-services.json
-**/ios/Flutter/DartDefines.xcconfig
-**/ios/Runner/GoogleService-Info.plist
-**/ios/GoogleService-Info.plist
-**/macos/Flutter/DartDefines.xcconfig
-**/macos/GoogleService-Info.plist
-
-**/ios/firebase_app_id_file.json
-
 # Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
 pubspec.lock
 
 # FVM Version Cache
 .fvm/
-/apps/list_sample_app/build/**
