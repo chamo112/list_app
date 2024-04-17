@@ -195,3 +195,4 @@ pubspec.lock
 
 # FVM Version Cache
 .fvm/
+/apps/list_sample_app/build/**
