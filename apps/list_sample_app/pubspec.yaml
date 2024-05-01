@@ -19,7 +19,7 @@ dependencies:
   riverpod_generator: ^2.4.0
 
   core_model:
-    path: ../../packages/core/model/core_model
+    path: ../../packages/core/model
 
 dev_dependencies:
   flutter_test:
@@ -29,5 +29,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - env/
