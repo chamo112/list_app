@@ -1,21 +1,19 @@
+import 'package:core_model/build_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+
+import 'app.dart';
+import 'app_initializer.dart';
 
 Future<void> main() async {
-  runApp(const ProviderScope(child: MyApp()));
-}
+  final buildConfig = await AppInitializer.initialize();
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  runApp(
+    ProviderScope(
+      overrides: [
+        buildConfigProvider.overrideWithValue(buildConfig),
+      ],
+      child: const App(),
+    ),
+  );
 }

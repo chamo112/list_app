@@ -17,6 +17,7 @@ dependencies:
   flutter_hooks: ^0.20.5
   riverpod_annotation: ^2.3.5
   riverpod_generator: ^2.4.0
+  hooks_riverpod: 2.5.1
 
   core_model:
     path: ../../packages/core/model
