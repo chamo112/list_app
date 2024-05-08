@@ -33,7 +33,8 @@ class MainRoute extends StatefulShellRouteData {
     _branches.length == BranchType.values.length,
     'branches.lengthとBranchType.values.lengthは同じである必要があります',
     );
-
+    
+    return const Text('aaa');
   }
 }
 

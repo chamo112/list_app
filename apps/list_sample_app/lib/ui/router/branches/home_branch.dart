@@ -5,7 +5,7 @@ import 'package:list_app/ui/router/utils/route_path_name.dart';
 
 const homeBranch = TypedStatefulShellBranch<SummaryBranch>(
   routes: <TypedGoRoute<GoRouteData>>[
-    TypedGoRoute(
+    TypedGoRoute<HomeRoute>(
       path: '/${RoutePathName.home}',
     ),
   ],

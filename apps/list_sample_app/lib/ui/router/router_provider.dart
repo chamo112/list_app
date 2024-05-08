@@ -12,5 +12,5 @@ GoRouter router(RouterRef ref){
     routes: [
       // $mainRoute,
     ]
-  )
+  );
 }

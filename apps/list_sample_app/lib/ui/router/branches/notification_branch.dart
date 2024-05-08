@@ -5,7 +5,7 @@ import 'package:list_app/ui/router/utils/route_path_name.dart';
 
 const notificationBranch = TypedStatefulShellBranch<NotificationBranch>(
   routes: <TypedGoRoute<GoRouteData>>[
-    TypedGoRoute(
+    TypedGoRoute<NotificationRoute>(
       path: '/${RoutePathName.notification}',
     ),
   ],

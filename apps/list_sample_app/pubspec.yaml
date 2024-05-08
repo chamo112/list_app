@@ -28,6 +28,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.1
   freezed: ^2.4.7
+  build_runner: 2.4.8
+  go_router_builder: 2.4.1
 
 flutter:
   uses-material-design: true
