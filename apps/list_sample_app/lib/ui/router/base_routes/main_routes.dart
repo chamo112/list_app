@@ -6,6 +6,7 @@ import 'package:list_app/ui/router/branches/notification_branch.dart';
 import 'package:list_app/ui/router/branches/profile_branch.dart';
 
 import '../branches/branch_type.dart';
+import '../ccomponent/bottom_navigation_scaffold.dart';
 
 part 'main_routes.g.dart';
 
@@ -34,7 +35,10 @@ class MainRoute extends StatefulShellRouteData {
     'branches.lengthとBranchType.values.lengthは同じである必要があります',
     );
     
-    return const Text('aaa');
+    final isOnBranchBase = BranchType.values
+        .any((branchType) => '/${branchType.name}' == state.fullPath);
+
+    return isOnBranchBase ? BottomNavigationScaffold(pageBody: navigationShell) : navigationShell;
   }
 }
 
