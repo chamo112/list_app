@@ -18,7 +18,7 @@ dependencies:
   flutter_hooks: ^0.20.5
   riverpod_annotation: ^2.3.5
   riverpod_generator: ^2.4.0
-  hooks_riverpod: 2.5.1
+  hooks_riverpod: 2.6.1
 
   core_model:
     path: ../../packages/core/model
@@ -28,8 +28,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.1
   freezed: ^2.4.7
-  build_runner: 2.4.8
-  go_router_builder: 2.4.1
+  build_runner: 2.4.13
+  go_router_builder: 2.7.1
 
 flutter:
   uses-material-design: true
