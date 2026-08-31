@@ -27,7 +27,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-  freezed: ^2.4.7
+  freezed: ^4.0.0
   build_runner: 2.4.8
   go_router_builder: 2.4.1
 
